@@ -1,7 +1,7 @@
-## makeCacheMatrix() basically accept a matrix as input and returns 
+## makeCacheMatrix() basically accept a matrix as input and returns
 ## a List which contains four functions.
-## The List of functions from makeCacheMatrix() will be pass as input 
-## into cacheSolve(). cacheSolve will solve for the inverse matrix value 
+## The List of functions from makeCacheMatrix() will be pass as input
+## into cacheSolve(). cacheSolve will solve for the inverse matrix value
 ## and the inverse matrix will get stored in variable inverse_m_cache. 
 
 makeCacheMatrix <- function(input_matrix = matrix()) {
@@ -50,15 +50,14 @@ makeCacheMatrix <- function(input_matrix = matrix()) {
 }
 
 
-## cacheSolve() gets the input matrix from makeCacheMatrix() and 
-## solves for the inverse matrix and then passes it back to get 
-## stored in variable inverse_m_cache. 
+## cacheSolve() gets the input matrix from makeCacheMatrix() and
+## solves for the inverse matrix and then passes it back to get
+## stored in variable inverse_m_cache.
 ## If the inverse matrix data has already been stored previously
-## in the variable inverse_m_cache, then cacheSolve will not perform 
-## the solving procedure again, it will recall straight from the 
+## in the variable inverse_m_cache, then cacheSolve will not perform
+## the solving procedure again, it will recall straight from the
 ## cache (inverse_m_cache).  
 
- 
 cacheSolve <- function(x, ...) {
 
 	## get inverse matrix from makeCacheMatrix(). 
