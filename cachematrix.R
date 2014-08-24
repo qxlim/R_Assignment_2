@@ -1,8 +1,8 @@
 ## makeCacheMatrix() basically accept a matrix as input 
 ## and returns a List which contains four functions.
-## The List of functions from makeCacheMatrix() will be pass 
+## The List of functions from makeCacheMatrix() will be passed 
 ## as input into cacheSolve(). cacheSolve will solve for the 
-## inverse matrix value ## and the inverse matrix will get 
+## inverse matrix value and the inverse matrix will get 
 ## stored in variable inverse_m_cache. 
 
 makeCacheMatrix <- function(input_matrix = matrix()) {
